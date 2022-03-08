@@ -42,7 +42,7 @@ void WordListGenerator::GetLastWordList(int *wordQty) {
         lastFile.close();
     } else {
         for (char sign: letters) {
-            std::string word =  std::string(1,sign);
+            std::string word = std::string(1, sign);
             newFile << word;
             newFile << "\n";
         }

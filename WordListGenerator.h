@@ -15,7 +15,7 @@ private:
 private:
     std::string fileExtension = ".txt";
 private:
-    int numberOfValues=94;
+    int numberOfValues = 94;
 
 public:
     std::string GetFilePath(const int *wordQty);
