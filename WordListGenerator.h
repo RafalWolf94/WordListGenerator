@@ -29,7 +29,7 @@ public:
 public:
     void GenerateTemplate(char *baseLetters) const;
 
-    void GetLastWordList(int *wordQty);
+    void GenerateWordLists(int *wordQty);
 };
 
 

@@ -18,7 +18,7 @@ void WordListGenerator::GenerateTemplate(char *baseLetters) const {
     }
 }
 
-void WordListGenerator::GetLastWordList(int *wordQty) {
+void WordListGenerator::GenerateWordLists(int *wordQty) {
     std::vector<std::string> lastWordList;
     std::fstream lastFile;
     std::ofstream newFile;
